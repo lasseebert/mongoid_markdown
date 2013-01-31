@@ -2,11 +2,13 @@
 
 Makes it easy to handle a field in a mongoid document that contains markdown.
 
-Creates an extra method parsed_*field_name* which will return the HTML markup of the markdown.
+Creates an extra method `parsed_field_name` which will return the HTML markup of the markdown.
 
 ## Installation
 
 **Note: This is not published to RubyGems yet - waiting for their recovory**
+
+**In the meantime use `gem 'mongoid_markdown', git: 'https://github.com/lasseebert/mongoid_markdown.git'`**
 
 Add this line to your application's Gemfile:
 
@@ -22,9 +24,9 @@ Or install it yourself as:
 
 ## Usage
 
-* Include MongoidMarkdown::Parser
+* Include `MongoidMarkdown::Parser`
 * Add field with `markdown` instead of the normal `field`
-* Enjoy the parsed_*field_name* method
+* Enjoy the `parsed_field_name` method
 
 Example:
 ```ruby
