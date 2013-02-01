@@ -42,6 +42,10 @@ article = Article.new header: 'Check out mongoid_markdown', content: "Wow\n\n* l
 article.parsed_content # => "<p>Wow</p>\n\n<ul>\n<li>list</li>\n<li><em>items</em></li>\n</ul>\n"
 ```
 
+## Alternatives
+
+[mongoid-markdown](https://github.com/kristianmandrup/mongoid-markdown), which takes a slightly different approach.
+
 ## Contributing
 
 1. Fork it
