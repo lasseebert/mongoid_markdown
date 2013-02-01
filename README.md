@@ -6,7 +6,7 @@ Creates an extra method `parsed_field_name` which will return the HTML markup of
 
 ## Installation
 
-**Note: This is not published to RubyGems yet - waiting for their recovory**
+**Note: This is not published to RubyGems yet - waiting for their recovery**
 
 **In the meantime use `gem 'mongoid_markdown', git: 'https://github.com/lasseebert/mongoid_markdown.git'`**
 
