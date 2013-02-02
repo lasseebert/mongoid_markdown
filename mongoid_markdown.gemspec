@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["lasseebert@gmail.com"]
   gem.description   = %q{Makes it easy to use markdown with mongoid}
   gem.summary       = %q{Makes it easy to use markdown with mongoid}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/lasseebert/mongoid_markdown"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
