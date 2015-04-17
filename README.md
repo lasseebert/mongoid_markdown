@@ -2,6 +2,7 @@
 
 [![Code Climate](https://codeclimate.com/github/lasseebert/mongoid_markdown.png)](https://codeclimate.com/github/lasseebert/mongoid_markdown)
 [![Gem Version](https://badge.fury.io/rb/mongoid_markdown.png)](http://badge.fury.io/rb/mongoid_markdown)
+[![Build Status](https://semaphoreci.com/api/v1/projects/8249b480-a1b3-4ef0-9ed9-90323383af84/401323/badge.svg)](https://semaphoreci.com/lasseebert/mongoid_markdown)
 
 Makes it easy to handle a field in a mongoid document that contains markdown.
 
